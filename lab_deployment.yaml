@@ -15,7 +15,7 @@ spec:
         app: mavenapp
     spec:
       containers:
-      - name: labmaven
-        image: dvasanth26/maven:latest
+      - name: maven1
+        image: preethamsg56/maven:latest
         ports:
         - containerPort: 8080
